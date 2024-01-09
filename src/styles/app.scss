@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import 'statics';
+@import 'header';
+@import 'home';
+@import 'skill';
+@import 'project';
+@import 'timeline';
+@import 'animations';
+@import 'aboutme';
+@import 'contact';
+@import 'footer';
+@import 'mediaQuery';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $text2;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: $color4;
+    overflow-x: hidden;
+}
+
+.disableBtn {
+    background-color: rgb(190, 190, 190) !important;
+    cursor: not-allowed !important;
+    color: $color4;
+}
+
+.heading {
+    font: 700 2.5rem $text1;
+    width: fit-content;
+    margin: 1.2rem auto;
+    text-transform: uppercase;
+    color: $color2;
+    border-bottom: 3px solid $color2_2;
+}
